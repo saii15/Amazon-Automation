@@ -52,6 +52,14 @@ src/test/java/E2EProject
   
   ![Screenshot (155)](https://user-images.githubusercontent.com/17718690/201033822-a09ce5b7-9adc-4a52-9fda-c591073655d7.png)
   
+  11.There is no product with the rating 5 out of 5.
+  
+  
+  
+  
+  ![Screenshot (159)](https://user-images.githubusercontent.com/17718690/201084841-b79183b8-ca72-4c67-9de6-2d1448eb1353.png)
+
+  
   
   12. There is no product with the rating 5 out of 5 after applying filter.So we cannot add that product to the wishlist.
   13. Cannot validate the product if it is added to the wish list or not, as validation fails for above step no. 12
