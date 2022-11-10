@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T13:19:37 IST" name="Suite" finished-at="2022-11-10T13:20:37 IST" duration-ms="60544">
+    <groups>
+    </groups>
+    <test started-at="2022-11-10T13:19:37 IST" name="Test" finished-at="2022-11-10T13:19:50 IST" duration-ms="13183">
+      <class name="E2EProject.HomePage">
+        <test-method is-config="true" signature="init()[pri:0, instance:E2EProject.HomePage@78461bc4]" started-at="2022-11-10T13:19:37 IST" name="init" finished-at="2022-11-10T13:19:40 IST" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:E2EProject.HomePage@78461bc4]" started-at="2022-11-10T13:19:44 IST" name="search" data-provider="searchData" finished-at="2022-11-10T13:19:50 IST" duration-ms="5392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EProject.HomePage@78461bc4]" started-at="2022-11-10T13:19:50 IST" name="teardown" finished-at="2022-11-10T13:19:50 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EProject.HomePage -->
+    </test> <!-- Test -->
+    <test started-at="2022-11-10T13:19:51 IST" name="Test2" finished-at="2022-11-10T13:20:17 IST" duration-ms="25654">
+      <class name="E2EProject.LandingPageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:E2EProject.LandingPageTest@bc57b40]" started-at="2022-11-10T13:19:51 IST" name="init" finished-at="2022-11-10T13:19:54 IST" duration-ms="2917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="filterItems(java.lang.String)[pri:0, instance:E2EProject.LandingPageTest@bc57b40]" started-at="2022-11-10T13:19:54 IST" name="filterItems" data-provider="Data" finished-at="2022-11-10T13:20:16 IST" duration-ms="22004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dell computers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterItems -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EProject.LandingPageTest@bc57b40]" started-at="2022-11-10T13:20:16 IST" name="teardown" finished-at="2022-11-10T13:20:17 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EProject.LandingPageTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-11-10T13:20:17 IST" name="Test3" finished-at="2022-11-10T13:20:37 IST" duration-ms="20374">
+      <class name="E2EProject.Validation">
+        <test-method is-config="true" signature="init()[pri:0, instance:E2EProject.Validation@77cf3f8b]" started-at="2022-11-10T13:20:17 IST" name="init" finished-at="2022-11-10T13:20:19 IST" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="registratin(java.lang.String)[pri:0, instance:E2EProject.Validation@77cf3f8b]" started-at="2022-11-10T13:20:20 IST" name="registratin" data-provider="loginData" finished-at="2022-11-10T13:20:37 IST" duration-ms="17089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dell computers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registratin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EProject.Validation@77cf3f8b]" started-at="2022-11-10T13:20:37 IST" name="teardown" finished-at="2022-11-10T13:20:37 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EProject.Validation -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
